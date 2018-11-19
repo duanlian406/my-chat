@@ -1,0 +1,24 @@
+<div class="row" style="height:10%; border-bottom:1px solid black; text-align:center;">
+  <h3>{{target|async}}</h3>
+</div>
+<div class="row" style="height:70%;">
+  <ul class="list-group" style="height:100%; overflow:auto;" #list>
+    <li *ngFor="let item of messageList|async" class="list-group-item" style="overflow:auto;">
+      <div [class.right]="item.from!==service.user">
+        <div>
+          <span>{{item.from}}</span>
+          <span style="margin-left:10px;">{{item.time|date:'yyyy/MM/dd hh:mm:ss'}}</span>
+        </div>
+        <div>
+          <span>{{item.msg}}</span>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="row form-inline" style="height:20%; border-top:1px solid black;">
+  <div class="form-group">
+    <textarea rows="4" cols="60" #text class="form-control" style="resize:none; overflow:auto;" (ctrlEnter)="send(text)"></textarea>
+    <button (click)="send(text)" class="btn btn-primary" style="vertical-align:bottom;">发送</button>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let item of items" [class.active]="target===item.username" (dblclick)="changeTarget(item.username)">
+    <span class="badge" *ngIf="item.newMessageCount">{{item.newMessageCount}}</span>
+    <div>
+      <span>{{item.username}}</span>
+    </div>
+  </li>
+</ul>

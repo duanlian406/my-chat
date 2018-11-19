@@ -1,0 +1,12 @@
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <ul class="nav nav-pills nav-justified">
+        <li role="presentation" [routerLink]="['/login']" routerLinkActive="active"><a href="javascript:;">Login</a></li>
+        <li role="presentation" [routerLink]="['/chat']" routerLinkActive="active"><a href="javascript:;">Chat</a></li>
+      </ul>
+    </div>
+    <div class="panel-body">
+      <router-outlet></router-outlet>    
+    </div>
+  </div>
+

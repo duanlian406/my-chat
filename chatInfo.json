@@ -1,0 +1,243 @@
+[
+    {
+        "username": "duanlian",
+        "password": "051101001",
+        "data": [
+            [
+                "group",
+                {
+                    "from": "duanlian",
+                    "target": "group",
+                    "msg": "段炼来了",
+                    "time": 1545023223252
+                }
+            ],
+            [
+                "group",
+                {
+                    "from": "wangsai",
+                    "target": "group",
+                    "msg": "王赛",
+                    "time": 1545023468461
+                }
+            ],
+            [
+                "wangsai",
+                {
+                    "from": "wangsai",
+                    "target": "duanlian",
+                    "msg": "111111",
+                    "time": 1545023513701
+                }
+            ],
+            [
+                "wangsai",
+                {
+                    "from": "duanlian",
+                    "target": "wangsai",
+                    "msg": "22222",
+                    "time": 1545023518712
+                }
+            ],
+            [
+                "wangsai",
+                {
+                    "from": "duanlian",
+                    "target": "wangsai",
+                    "msg": "啊啊啊啊",
+                    "time": 1545023524998
+                }
+            ],
+            [
+                "wangsai",
+                {
+                    "from": "duanlian",
+                    "target": "wangsai",
+                    "msg": "不不不不不",
+                    "time": 1545023529427
+                }
+            ],
+            [
+                "wangsai",
+                {
+                    "from": "wangsai",
+                    "target": "duanlian",
+                    "msg": "1123123123",
+                    "time": 1545023534318
+                }
+            ],
+            [
+                "wangsai",
+                {
+                    "from": "duanlian",
+                    "target": "wangsai",
+                    "msg": "你下线了？",
+                    "time": 1545023598285
+                }
+            ],
+            [
+                "wangsai",
+                {
+                    "from": "wangsai",
+                    "target": "duanlian",
+                    "msg": "刚才掉线了",
+                    "time": 1545023638558
+                }
+            ],
+            [
+                "group",
+                {
+                    "from": "duanlian",
+                    "target": "group",
+                    "msg": "22222",
+                    "time": 1545023646358
+                }
+            ],
+            [
+                "wangsai",
+                {
+                    "from": "wangsai",
+                    "target": "duanlian",
+                    "msg": "打的",
+                    "time": 1545023651429
+                }
+            ],
+            [
+                "group",
+                {
+                    "from": "duanlian",
+                    "target": "group",
+                    "msg": "432423423",
+                    "time": 1545024486183
+                }
+            ],
+            [
+                "group",
+                {
+                    "from": "duanlian",
+                    "target": "group",
+                    "msg": "广东省供电所覆盖",
+                    "time": 1545024488463
+                }
+            ]
+        ],
+        "list": []
+    },
+    {
+        "username": "wangsai",
+        "password": "051101001",
+        "data": [
+            [
+                "group",
+                {
+                    "from": "wangsai",
+                    "target": "group",
+                    "msg": "王赛",
+                    "time": 1545023468461
+                }
+            ],
+            [
+                "duanlian",
+                {
+                    "from": "wangsai",
+                    "target": "duanlian",
+                    "msg": "111111",
+                    "time": 1545023513701
+                }
+            ],
+            [
+                "duanlian",
+                {
+                    "from": "duanlian",
+                    "target": "wangsai",
+                    "msg": "22222",
+                    "time": 1545023518712
+                }
+            ],
+            [
+                "duanlian",
+                {
+                    "from": "duanlian",
+                    "target": "wangsai",
+                    "msg": "啊啊啊啊",
+                    "time": 1545023524998
+                }
+            ],
+            [
+                "duanlian",
+                {
+                    "from": "duanlian",
+                    "target": "wangsai",
+                    "msg": "不不不不不",
+                    "time": 1545023529427
+                }
+            ],
+            [
+                "duanlian",
+                {
+                    "from": "wangsai",
+                    "target": "duanlian",
+                    "msg": "1123123123",
+                    "time": 1545023534318
+                }
+            ],
+            [
+                "duanlian",
+                {
+                    "from": "duanlian",
+                    "target": "wangsai",
+                    "msg": "你下线了？",
+                    "time": 1545023598285
+                }
+            ],
+            [
+                "duanlian",
+                {
+                    "from": "wangsai",
+                    "target": "duanlian",
+                    "msg": "刚才掉线了",
+                    "time": 1545023638558
+                }
+            ],
+            [
+                "group",
+                {
+                    "from": "duanlian",
+                    "target": "group",
+                    "msg": "22222",
+                    "time": 1545023646358
+                }
+            ],
+            [
+                "duanlian",
+                {
+                    "from": "wangsai",
+                    "target": "duanlian",
+                    "msg": "打的",
+                    "time": 1545023651429
+                }
+            ],
+            [
+                "group",
+                {
+                    "from": "duanlian",
+                    "target": "group",
+                    "msg": "432423423",
+                    "time": 1545024486183
+                }
+            ],
+            [
+                "group",
+                {
+                    "from": "duanlian",
+                    "target": "group",
+                    "msg": "广东省供电所覆盖",
+                    "time": 1545024488463
+                }
+            ]
+        ],
+        "list": [
+            "duanlian"
+        ]
+    }
+]

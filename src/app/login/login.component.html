@@ -1,0 +1,61 @@
+<div class="login-form">
+  <form class="form-horizontal" #form="ngForm" *ngIf="!service.isLogin">
+    <div class="form-group">
+      <label for="username" class="col-sm-2 control-label">Username</label>
+      <div class="col-sm-10 input-group">
+        <input type="text" class="form-control" id="username" placeholder="Username" [(ngModel)]="username" name="username">
+        <span class="input-group-addon" title="6-12个英文和数字"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i></span>
+        <span class="input-group-addon" *ngIf="0">123</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="password" class="col-sm-2 control-label">Password</label>
+      <div class="col-sm-10 input-group">
+        <input type="password" class="form-control" id="password" placeholder="Password" [(ngModel)]="password" name="password">
+        <span class="input-group-addon" title="6-12个英文或数字"><i class="fa fa-keyboard-o fa-lg" aria-hidden="true"></i></span>
+        <span class="input-group-addon" *ngIf="0">123</span>
+      </div>
+    </div>
+    <div class="form-group" *ngIf="message">
+      <div class="col-sm-offset-2 col-sm-10">
+        <label style="color:red;" class="control-label">
+          {{message}}
+        </label>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="remember" [(ngModel)]="remember"> Remember me
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-3">
+        <button type="button" class="btn btn-success" (click)="login()" [disabled]="logining">
+          <span *ngIf="!logining">Login</span>
+          <span *ngIf="logining">
+            Logining...
+            <i class="fa fa-spinner fa-spin fa-fw"></i>
+          </span>
+        </button>
+      </div>
+      <div class="col-sm-2">
+        <button type="button" class="btn btn-primary" (click)="register()">Register</button>
+      </div>
+    </div>
+  </form>
+  <div class="panel panel-primary" *ngIf="service.isLogin">
+    <div class="panel-heading">
+      User Center
+    </div>
+    <div class="panel-body">
+      {{service.userInfo.username}}
+    </div>
+    <div class="panel-footer">
+      <button (click)="service.logout()" class="btn btn-danger">Logout</button>
+    </div>
+  </div>
+</div>

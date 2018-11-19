@@ -1,0 +1,28 @@
+.box {
+    width:80%;
+    height:600px;
+    border:1px solid black;
+    margin:0 auto;
+}
+.head {
+    height:10%;
+    border-bottom:1px solid black;
+}
+.body {
+    height:90%;
+}
+.portrait {
+    position: relative;
+    padding:0;
+}
+.portrait img {
+    height:50px;
+    margin:0 auto;
+    border-radius: 50%;
+}
+.portrait i {
+    position: absolute;
+    top:35px;;
+    left:30px;
+    color:blue;
+}
